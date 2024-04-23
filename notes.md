@@ -51,3 +51,40 @@ Always select the smallest one and move it to front
 [Markdown Cheat sheet](https://www.markdownguide.org/basic-syntax/#headings)
 
 [Git help Blog](https://ragavkumarv.com/blog/push-project-to-github/#introduction)
+
+#### Stakeholders
+- Responsible For products
+- Risks
+
+#### Netflix Chaos Monkey
+
+## SDLC
+1. WaterFall
+    - Long Time
+
+2. Agile
+    - Flexible
+    - Fast 
+    - Adaptible
+
+### SCRUM (Implementation of Agile)
+- Sprint(2-4 weeks)(14 days)
+    1. Planning(Scrum Master will Assign the  tasks)
+        - Story Points(Fibbonaci Numbers-1 1 2 3 5 8 13 21)
+        - own team
+    2. Standup(15 min everyday)
+        - Blocker(stuck)
+        - own team
+    3. Sprint Retrospective
+        - What went wrong
+        - own team
+    4. Sprint Review(All teams)
+
+### Unified View
+- Kan-Bam Board(To Do)
+    - Backlog
+        1. Product Backlog
+        2. Sprint Backlog
+    - In Progress
+    - Peer Review
+    - Done
