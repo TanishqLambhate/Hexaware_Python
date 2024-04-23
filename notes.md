@@ -46,3 +46,8 @@ Always select the smallest one and move it to front
 | Column 1   | Column 2 | 
 | ---------- | -------- |
 | Foo  | Baz      |
+
+## Cheatsheets
+[Markdown Cheat sheet](https://www.markdownguide.org/basic-syntax/#headings)
+
+[Git help Blog](https://ragavkumarv.com/blog/push-project-to-github/#introduction)
