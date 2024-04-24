@@ -154,3 +154,27 @@ Find the list of all buildings and their capacity
 ```sql
 SELECT * FROM Buildings ;
 ```
+## Ex 8
+Find the name and role of all employees who have not been assigned to a building 
+```sql
+    SELECT * FROM employees where building is null;
+```
+Find the names of the buildings that hold no employees
+```sql
+SELECT * FROM Buildings left join employees on Building_name=building
+where building is null;
+```
+
+## EX 9
+List all movies and their combined sales in millions of dollars 
+```sql
+SELECT title,(domestic_sales+international_sales)/1000000 as combined_sales FROM movies inner join Boxoffice on id=movie_id;
+```
+List all movies and their ratings in percent 
+```sql
+SELECT title,rating*10 FROM movies inner join Boxoffice on id=movie_id;
+```
+List all movies that were released on even number years
+```sql
+SELECT * FROM movies where Year%2==0 ;
+```
