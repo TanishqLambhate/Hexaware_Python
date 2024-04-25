@@ -34,3 +34,31 @@ Andrew Stanton has also left the studio, so please remove all movies directed by
 Delete FROM movies
 where DIRECTOR="Andrew Stanton";
 ```
+
+### AWS 
+- s3 bucket is used to store images in database
+
+### Decimal / float /
+### EX (SQL Lesson 16: Creating tables)
+Create a new table named Database with the following columns:
+– Name A string (text) describing the name of the database
+– Version A number (floating point) of the latest version of this database
+– Download_count An integer count of the number of times this database was downloaded
+```sql
+create table if not exists Database(
+Name text ,
+Version float ,
+Download_count int 
+);
+```
+### EX
+Add another column named Language with a TEXT data type to store the language that the movie was released in. Ensure that the default for this language is English.
+```sql
+ALTER TABLE Movies
+ADD Language   TEXT 
+default english
+```
+And drop the BoxOffice table as well 
+```sql
+drop table boxoffice
+```
