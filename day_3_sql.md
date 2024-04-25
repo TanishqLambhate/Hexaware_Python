@@ -1,7 +1,7 @@
 ### Database
 - Special software to store data
 - what is cloud = Renting PC
-
+- why cant we put twitter database in our laptop
 - Cloud Providers
 
 - Good Server Hard Disk-vibration resistent ,lifespan ,costlier
@@ -34,6 +34,9 @@
     - Backups are inbuilt
     - Undo -easily(time limit)
     - Performance
+
+- Normalization
+    - For saftey of data
 
 [SQL](https://sqlbolt.com/)
 
@@ -177,4 +180,49 @@ SELECT title,rating*10 FROM movies inner join Boxoffice on id=movie_id;
 List all movies that were released on even number years
 ```sql
 SELECT * FROM movies where Year%2==0 ;
+```
+EX 10
+Find the longest time that an employee has been at the studio
+```sql
+    SELECT max(years_employed) FROM employees;
+```
+For each role, find the average number of years employed by employees in that role
+```sql
+    SELECT avg(years_employed),role FROM employees group by role;
+```
+    
+EX 11
+Find the number of Artists in the studio (without a HAVING clause) 
+```sql
+SELECT role,count(role) FROM employees where role="Artist";
+```
+Find the number of Employees of each role in the studio
+```sql
+SELECT count(role),role FROM employees group by role;
+```
+Find the total number of years employed by all Engineers 
+```sql
+SELECT sum(years_employed) FROM employees where role="Engineer";
+```
+EX 12
+
+Find the number of movies each director has directed
+```SQL
+SELECT director,count(director) FROM movies group by director;
+```
+Find the total domestic and international sales that can be attributed to each director 
+```sql
+SELECT sum(domestic_sales)+sum(international_sales) as total,director 
+FROM movies 
+left join boxoffice on id=movie_id 
+group by director ;
+```
+EX 13
+Add the studio's new production, Toy Story 4 to the list of movies (you can use any director)
+```SQL
+insert into movies values(15,'Toy Story 4','Tanishq',2024,120);
+```
+Toy Story 4 has been released to critical acclaim! It had a rating of 8.7, and made 340 million domestically and 270 million internationally. Add the record to the BoxOffice table.
+```sql
+insert into BOXOFFICE values(15,8.7,340000000,270000000);
 ```
