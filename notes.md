@@ -92,3 +92,17 @@ Always select the smallest one and move it to front
 - Burn Down Chart
     - Ad-hoc(Additional load)
     - JIRA
+
+### what are blockers
+- 
+
+### [],"" - special sign in middle of column name
+
+### foreign key how does it make safer data
+-  for change so that data doesnt become ghost data
+- delete saftey
+- update saftey
+- insert saftey
+- without foreign key also we can do  joins but it will not provide saftey
+
+## Read documentation in free time

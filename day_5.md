@@ -20,11 +20,22 @@
 
 - Inbuilt Function
     - String Function
+        - LTRIM
+        - RTRIM
+        - LEFT-
+take 2 characters from the the left 
+        - LEN
+        - UPPER
+        - SUBSTRING
+
     - Maths Fn
+        - ROUND
+        - FLOOR 
+        - CEILING
     - Date
         - Day(date)
         - Month(date)
         - Year(date)
-        - getdate()
+        - getdate()-currrent date
         - Datediff(datepart, startdate, enddate)
         - Dateadd(datepart, number,date)
