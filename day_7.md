@@ -59,3 +59,21 @@ print(str(celsius)+"°C")
 
 -Ternary-> 3 operands
 - unary opereator->not,++,--
+- statement vs expression
+- membership function (in)
+
+- strip,upper,lower,find,replace,title capitalize
+- if value not there then find will return -1
+- Strings are immutable.
+- value of list can be changed
+```python
+    quote3="Dream is not something"
+    quote3[0]='y' #error :Reason immutable
+    quote3="cool"
+```
+- Slicing operator
+```python
+    quote="Dream"
+    print(quote[1:3]) #output =>re 
+    # will only include 1 & 2 index and will leave 3
+```
