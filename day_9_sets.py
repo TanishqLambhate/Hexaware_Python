@@ -1,5 +1,5 @@
 # In sets we cannot access element using index because it has no order
-# unique,no order
+# unique,no order,mutable
 
 colors = {"red", "blue", "red", "green", "blue"}
 print(colors)

@@ -1,0 +1,5 @@
+- len() can be used with str,list,tuple
+- remove vs pop
+- append vs insert
+- set comprehension , Dictionary Comprehension ,List Comprehension
+- set () constructor is available to declare a empty set to distinguish between dictionary
