@@ -37,13 +37,13 @@ coordinates = [(5, 4), (1, 1), (6, 10), (9, 10)]
 #     for j in i:
 #         print(int(j**2+(j+1)**2)**0.5)
 #         j=j+2
-# distance=[]
-# for cord in coordinates:
-#     x=cord[0]
-#     y=cord[1]
-#     d=(x**2+y**2)**0.5
-#     distance.append(d)
-# print(distance)
+distance=[]
+for cord in coordinates:
+    x=cord[0]
+    y=cord[1]
+    d=(x**2+y**2)**0.5
+    distance.append(d)
+print(distance)
 
 # Task 1.2 - for loop + unpacking
 

@@ -55,7 +55,7 @@ add_book(library_list,book)
 #v2 pyhtonic way
 def search_book(library,author):
     return [book1 for book1 in library if author==book1.get("author")]
-# print(search_book(library_list,"Mark Lutz"))
+print(search_book(library_list,"Mark Lutz"))
 
 # Task 3
 # Check Out Book Function: Write a function check_out_book(library, title) that marks a book as not available if it exists and is available in the library.

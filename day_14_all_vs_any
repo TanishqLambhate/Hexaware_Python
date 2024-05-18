@@ -1,0 +1,5 @@
+marks = [50, 40, 20, 90]
+if all(mark>=40 for mark in marks):
+    print("Yes,they will get a grade")
+else:
+    print("No,they will not get a grade ")

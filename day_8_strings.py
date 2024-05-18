@@ -31,3 +31,4 @@ print(quote3)
 # slicing operator->:
 quote="Dream"
 print(quote[3:1])
+print(quote)
